@@ -9,5 +9,6 @@ remote_machine_password="test@123"
 
 
 [ansible_setup_passwordless_setup_group]
-node1 ansible_port=22 ansible_user=root ansible_host=10.128.0.8
-node2 ansible_port=22 ansible_user=root ansible_host=10.128.0.9
+mn1 ansible_port=22 ansible_user=root ansible_host=10.128.0.8
+dn1 ansible_port=22 ansible_user=root ansible_host=10.128.0.9
+dn2 ansible_port=22 ansible_user=root ansible_host=10.128.0.10
