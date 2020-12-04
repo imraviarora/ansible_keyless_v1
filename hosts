@@ -1,5 +1,5 @@
 [local_host]
-localhost ansible_port=22 ansible_user=root ansible_password=test@123 ansible_host=10.128.0.8
+localhost ansible_port=22 ansible_user=root ansible_password=test@123 ansible_host=10.128.0.12
 
 
 [local_host:vars]
@@ -9,6 +9,5 @@ remote_machine_password="test@123"
 
 
 [ansible_setup_passwordless_setup_group]
-mn1 ansible_port=22 ansible_user=root ansible_host=10.128.0.8
-dn1 ansible_port=22 ansible_user=root ansible_host=10.128.0.9
-dn2 ansible_port=22 ansible_user=root ansible_host=10.128.0.10
+mn1 ansible_port=22 ansible_user=root ansible_host=10.128.0.12
+dn2 ansible_port=22 ansible_user=root ansible_host=10.128.15.233
